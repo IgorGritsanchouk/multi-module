@@ -1,0 +1,26 @@
+name: aero
+services:
+
+#  activemq-classic:
+#      container_name: activemq-classic-cnr
+#      ports:
+#        - 61616:61616
+#        - 8161:8161
+#     image: apache/activemq-classic:latest
+
+  mysql:
+    container_name: mysql-cnr
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=lera
+      - MYSQL_DATABASE=aero
+    image: mysql:lts
+
+  aero:
+      image: aero-17-img:v2
+      restart: always
+      container_name: aero-v2-cnr
+      ports:
+        - 80:80
