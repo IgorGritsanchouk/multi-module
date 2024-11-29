@@ -1,4 +1,4 @@
-package com.mm.aero.component;
+package com.mm.webstn.component;
 
 import com.mm.shared.domain.Message;
 import lombok.Getter;
