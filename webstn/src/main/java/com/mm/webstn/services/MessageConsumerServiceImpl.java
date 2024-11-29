@@ -27,6 +27,7 @@ public class MessageConsumerServiceImpl implements MessageConsumerService{
 
     @Override
     public HistoryMessage saveHistoryMessage(HistoryMessage historyMessage){
+        System.out.println("About to save HM: "+ historyMessage.getMessage());
         return messageRepository.save(historyMessage);
     }
 
