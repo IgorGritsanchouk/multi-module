@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="ISO-8859-1">
-    <title>Aero Received messages page</title>
+    <title>Webstn Received messages page</title>
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -11,7 +11,7 @@
 <body>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">Aero Received SCANNER messages page</a>
+    <a class="navbar-brand" href="#">WEBSTN received SCNR messages page</a>
 
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -25,7 +25,10 @@
                 <a class="nav-link" target="_blank" th:href="@{localhost:81/scanner/message/new}">Scanner send new message</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" th:href="@{/aero/received-messages}">Received Messages</a>
+                <a class="nav-link" th:href="@{/webstn/received-messages}">Received Messages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" th:href="@{/h2-console}">H2 DB</a>
             </li>
         </ul>
     </div>
@@ -33,7 +36,7 @@
 
 <div class ="container">
     <div class = "row">
-        <h1> Aero Received scanner messages </h1>
+        <h1> Webstn Received scanner messages </h1>
     </div>
 
     <div class = "row">

@@ -1,7 +1,7 @@
-package com.mm.aero.controllers;
+package com.mm.webstn.controllers;
 
-import com.mm.aero.component.MessageConsumer;
-import com.mm.aero.domain.HistoryMessage;
+import com.mm.webstn.component.MessageConsumer;
+import com.mm.webstn.domain.HistoryMessage;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,7 +18,7 @@ public class MessageConsumerController {
         this.messageConsumer = messageConsumer;
     }
 
-    @GetMapping("/aero/received-messages")
+    @GetMapping("/webstn/received-messages")
     public String receivedMessagesPage(Model model) {
 
         ArrayList<HistoryMessage> messages= new ArrayList();

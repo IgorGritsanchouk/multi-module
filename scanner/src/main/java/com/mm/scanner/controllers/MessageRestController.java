@@ -1,14 +1,12 @@
 package com.mm.scanner.controllers;
 
+import com.mm.scanner.component.MessageProducer;
 import com.mm.shared.domain.Message;
-import com.mm.scanner.services.MessageService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import com.mm.scanner.component.MessageProducer;
 
 @RestController
 public class MessageRestController {

@@ -1,4 +1,4 @@
-package com.mm.aero.exceptions;
+package com.mm.webstn.exceptions;
 
 public class NotFoundException extends Exception {
 

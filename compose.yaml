@@ -18,22 +18,22 @@
       depends_on:
         - activemq-classic
 
-    mysql:
-      container_name: mysql-cnr
-      restart: always
-      ports:
-        - 3306:3306
-      environment:
-        - MYSQL_ROOT_PASSWORD=lera
-        - MYSQL_DATABASE=aero
-      image: mysql:lts
+#    mysql:
+#      container_name: mysql-cnr
+#      restart: always
+#      ports:
+#        - 3306:3306
+#      environment:
+#        - MYSQL_ROOT_PASSWORD=lera
+#        - MYSQL_DATABASE=aero
+#      image: mysql:lts
 
     aero:
-      image: aero-17-img:v0.1
+      image: webstn-17-img:v0.1
       restart: always
-      container_name: aero-v01-cnr
+      container_name: webstn-v01-cnr
       ports:
         - 80:80
       depends_on:
-        - mysql
+ #       - mysql
         - activemq-classic

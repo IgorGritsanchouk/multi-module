@@ -1,4 +1,4 @@
 FROM openjdk:17-jdk-slim
-ADD ./target/aero-0.0.1-SNAPSHOT.jar aero.jar
+ADD ./target/webstn-0.0.1-SNAPSHOT.jar webstn.jar
 EXPOSE 80
-ENTRYPOINT ["java", "-jar", "aero.jar"]
+ENTRYPOINT ["java", "-jar", "webstn.jar"]

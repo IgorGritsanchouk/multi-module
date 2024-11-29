@@ -1,4 +1,4 @@
-package com.mm.aero.domain;
+package com.mm.webstn.domain;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Size;
