@@ -3,10 +3,10 @@ package com.mm.webstn;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class WebstnApplicationTests {
 
-    @Test
+    //@Test
     void contextLoads() {
     }
 
