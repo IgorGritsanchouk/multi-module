@@ -32,7 +32,6 @@ public class MessageConsumer {
         historyMessage.setDate(date.toInstant());
         historyMessage.setMessage(message.getText());
         messageConsumerService.saveHistoryMessage(historyMessage);
-
     }
 
 }

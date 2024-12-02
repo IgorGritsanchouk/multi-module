@@ -28,7 +28,7 @@ public class BootStrapData implements CommandLineRunner {
         long now = System.currentTimeMillis();
         Date date = new Date(now);
 
-        //Timestamp ts = new Timestamp(System.currentTimeMillis());
+       //Timestamp ts = new Timestamp(System.currentTimeMillis());
         HistoryMessage message1 = new HistoryMessage();
         //LocalDateTime localDateTime = LocalDateTime.now();
         message1.setDate(date.toInstant());
