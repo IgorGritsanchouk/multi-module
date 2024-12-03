@@ -10,7 +10,7 @@
         - 8161:8161
 
     scanner:
-      image: igr025/scanner-17-img:v0.1
+      image: igr025/scanner-21-img:v0.1
       restart: always
       container_name: scanner-v01-cnr
       ports:
@@ -28,8 +28,8 @@
 #        - MYSQL_DATABASE=aero
 #      image: mysql:lts
 
-    aero:
-      image: igr025/webstn-17-img:v0.1
+    webstn:
+      image: igr025/webstn-21-img:v0.1
       restart: always
       container_name: webstn-v01-cnr
       ports:

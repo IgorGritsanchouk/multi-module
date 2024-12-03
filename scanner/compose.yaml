@@ -10,7 +10,7 @@ services:
         - 8161:8161
 
   scanner:
-      image: scanner-17-img:v0.1
+      image: scanner-21-img:v0.1
       restart: always
       container_name: scanner-v1-cnr
       ports:

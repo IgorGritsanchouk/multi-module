@@ -5,24 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55c33708-d000-41fc-a466-a0d7caa3be07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/bootstrap/CleanDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/domain/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/domain/MessageHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/domain/ProductOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/domain/ProductShipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstn/src/main/resources/db/migration/V1__initial_script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webstn_scheemer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b1f9abcc-fffb-4ba9-9d2c-d362fa562239.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b1f9abcc-fffb-4ba9-9d2c-d362fa562239.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Help.md" beforeDir="false" afterPath="$PROJECT_DIR$/Help.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scanner/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/scanner/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scanner/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/scanner/compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scanner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scanner/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webstn/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webstn/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webstn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/bootstrap/BootStrapData.java" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/bootstrap/BootStrapData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/component/MessageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/component/MessageConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/domain/HistoryMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/domain/HistoryMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/services/MessageConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/services/MessageConsumerServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webstn/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webstn/src/main/resources/db/migration/V1__h2__history_message.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webstn/src/test/java/com/mm/webstn/WebstnApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/webstn/src/test/java/com/mm/webstn/WebstnApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +67,18 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.WebstnApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/DEV/multi-module/webstn/src/main/java/com/mm/webstn/domain",
+    "last_opened_file_path": "C:/DEV/multi-module",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -138,6 +135,7 @@
       <workItem from="1732867138680" duration="5567000" />
       <workItem from="1732874782621" duration="23506000" />
       <workItem from="1732987469555" duration="5341000" />
+      <workItem from="1733237398448" duration="2594000" />
     </task>
     <servers />
   </component>
@@ -158,16 +156,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/bootstrap/BootStrapData.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/component/MessageConsumer.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webstn/src/main/java/com/mm/webstn/bootstrap/CleanDatabase.java</url>
           <line>17</line>

@@ -27,7 +27,7 @@ services:
 #    image: mysql:lts
 
   webstn:
-      image: webstn-17-img:v0.1
+      image: webstn-21-img:v0.1
       restart: always
       container_name: webstn-v01-cnr
       ports:
